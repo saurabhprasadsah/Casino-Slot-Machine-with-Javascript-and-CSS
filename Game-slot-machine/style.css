@@ -3,4 +3,17 @@
     border: dashed brown 3px;
     height: 300px;
     width: 900px;
+    margin: 50px;
+    display: flex;
+}
+
+
+
+.slot{
+    height: 250px;
+    width: 250px;
+    margin: 20px;
+
+
+    background-color: azure;
 }
