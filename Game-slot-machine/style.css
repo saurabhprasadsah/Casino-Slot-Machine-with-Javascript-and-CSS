@@ -20,5 +20,21 @@
     line-height: 250px;
 
     
+}
 
+.slot >.value{
+    display: inline-block;
+    animation: slotspin infinite 0.5s;
+}
+
+
+
+@keyframes slotspin {
+    0%{
+        transform: translateY(-100px);
+
+    }
+    100%{
+        transform: translateY(100px);
+    }
 }
