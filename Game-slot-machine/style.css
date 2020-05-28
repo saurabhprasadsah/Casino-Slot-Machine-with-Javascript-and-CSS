@@ -13,7 +13,12 @@
     height: 250px;
     width: 250px;
     margin: 20px;
+    background-color: beige;
+    border: solid darkblue 2px;
+    text-align: center;
+    font-size: 80px;
+    line-height: 250px;
 
+    
 
-    background-color: azure;
 }
