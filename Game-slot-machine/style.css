@@ -13,16 +13,22 @@
     height: 250px;
     width: 250px;
     margin: 20px;
+    
+    overflow: hidden;
+    z-index: 1;
+
     background-color: beige;
     border: solid darkblue 2px;
     text-align: center;
-    font-size: 80px;
+    font-size: 100px;
     line-height: 250px;
 
     
 }
 
 .slot >.value{
+
+    z-index: 3;
     display: inline-block;
     animation: slotspin infinite 0.5s;
 }
@@ -31,10 +37,10 @@
 
 @keyframes slotspin {
     0%{
-        transform: translateY(-100px);
+        transform: translateY(-200px);
 
     }
     100%{
-        transform: translateY(100px);
+        transform: translateY(200px);
     }
 }
