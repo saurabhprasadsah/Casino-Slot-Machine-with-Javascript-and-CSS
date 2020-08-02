@@ -1,5 +1,5 @@
 :root {
-    --speed: 5;
+    --speed: 5;   ////initial speed
 }
 .machine {
     background-color: peru;
@@ -13,13 +13,13 @@
     display: flex;
 }
 
-#inpSpeed {
+#inpSpeed {                  
     font-size: 30pt;
-    margin-left: 30px;
+    margin-left: 30px;      //int speed
     width: 50px;
 }
 
-.slot {
+.slot {                 ///slot machine
     height: 250px;
     width: 250px;
     margin: 20px;
@@ -35,14 +35,14 @@
     line-height: 250px;
 }
 
-.slot > .value {
+.slot > .value {                          ///slot value add
     z-index: 3;
     animation-name: slotspin;
     animation-iteration-count: infinite;
     animation-duration: calc(1s / var(--speed));
 }
 
-@keyframes slotspin {
+@keyframes slotspin {                       ///key slot machine add
     0% {
         transform: translateY(-200px);
     }
