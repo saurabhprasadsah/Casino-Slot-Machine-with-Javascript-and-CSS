@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+
+    </head>
+    <body>               
+         <!--<h1 id="res" style="margin: 50px auto; width:300px;"></h1>-->
+        <input type="text" name="name" id="name"/>
+
+        <button onclick="greet()">
+            Greet
+        </button>
+        
+        <div class="greet">
+
+
+        </div>
+        <div class="greet">
+
+
+        </div>
+        <div class="greet">
+
+
+        </div>
+        <div class="greet">
+
+
+        </div>
+
+
+    </body>
+ 
+   <script type="text/javascript">
+
+      function greet()
+      {
+        var  name = document.getElementById('name').value;
+        var string = "Hello" + name;
+        document.getElementsByClassName('greet')[0].innerHTML = string;
+
+       // alert(name);
+      }
+
+
+      // var x = 1;
+      // var y = 1;
+       //var z = x || y;
+      // var x = 5;
+      // var y = 6;
+      // var z;
+    //condition ? "true" : "false"
+       //z = x < y ? "yes" : "no"
+       //var a = 6;
+       //var z = 32;
+       //z = z+a;
+        //z %= a;
+      // document.getElementById('res').innerHTML = z; 
+       
+       //var x = 18;
+       //var y = 17;
+
+       //z = x <= y;
+       //document.getElementById('res').innerHTML = z; 
+   </script>
+
+</html>
